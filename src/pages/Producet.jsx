@@ -16,7 +16,7 @@ export const Producet = () => {
     },[])
   return (
     <>
-    <h1 className='text-center font-bold'>Producet</h1>
+    <h1 className='text-center font-bold mt-4 text-4xl'>Producet</h1>
     <div className='flex flex-wrap gap-6 justify-center'>
    {use && use.map((item,index)=>{
     return <Card title={item.title} price={item.price} src={item.thumbnail}  description={item.description} />
