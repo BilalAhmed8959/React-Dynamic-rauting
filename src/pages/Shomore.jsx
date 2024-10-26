@@ -2,7 +2,7 @@ import React from 'react'
 
 const Shomore = () => {
   return (
-    <div>
+    <div className='text-center font-bold'>
       <h1>Shomore</h1>
     </div>
   )
